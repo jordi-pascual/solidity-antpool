@@ -1,3 +1,11 @@
+"""
+  Antpool
+  @ 2022/10              By Jordi Pascual
+"""
+
+__version__ = '0.0.1'
+__author__ = 'Jordi Pascual'
+
 import hashlib
 import hmac
 import requests
