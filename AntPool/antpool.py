@@ -330,8 +330,3 @@ class AntPool:
         }
         request = requests.post(self.url_base + 'changeMiningCoin.htm', data=post_data)
         return request.text
-
-
-if __name__ == "__main__":
-    ant = AntPool("Baxigon", "029df60dda57480a96aa61ac7d5998e3", "0a716e129d0f449b88c55ce232222033")
-    print(ant.get_pool_stats())
