@@ -15,7 +15,50 @@ You need to provide 3 parameters to authenticate a request:
 - secret - API secret
 - user_id - Id Antpool
 
-- ![antpool_info_credentials](https://user-images.githubusercontent.com/7261873/194952942-eef3c399-80f1-4d12-97b1-d0bc26743b17.jpg)
+![antpool_info_credentials](https://user-images.githubusercontent.com/7261873/194952942-eef3c399-80f1-4d12-97b1-d0bc26743b17.jpg)
+
+## Install
+
+    pip3 install solidity-antpool
+
+## Use Case
+```python
+from AntPool import antpool
+
+user_id = '#####'
+key = '#########'
+secret = '######'
+
+def example():
+    if __name__ == '__main__':
+        data = antpool.AntPool(user_id, key, secret)
+        print(data.get_overview())
+
+
+if __name__ == '__main__':
+    example()
+```
+### Response 
+```json
+{
+    "code": 0,
+    "message": "ok",
+    "data":
+    {
+        "hsLast10m": "127603936523714",
+        "hsLast1d": "102498704834436",
+        "invalidWorkerNum": 0,
+        "totalAmount": "0.00480411",
+        "totalWorkerNum": 1,
+        "unpaidAmount": "0.00480411",
+        "yesterdayAmount": "0.00037884",
+        "inactiveWorkerNum": 0,
+        "hsLast1h": "114466490529000",
+        "userId": "#####",
+        "activeWorkerNum": 1
+    }
+}
+```
 
 
 ## Methods
