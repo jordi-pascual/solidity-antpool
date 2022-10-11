@@ -76,4 +76,10 @@ if __name__ == '__main__':
 
 - get_coin_calculator (Mining Calculator)
 - change_coin (Change coin)
+- 
+## Holla at ya' boy
+
+BTC: 18ViDtX2XXqciFJg8f4B6tf6nWLBTQTS2
+
+ETH: 0xc5D4A8DA3151cd09B25631760da495E7FcaC8b93
 
