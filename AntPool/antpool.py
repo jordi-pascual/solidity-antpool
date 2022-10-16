@@ -13,7 +13,7 @@ import time
 
 
 class AntPool:
-    """Allows users to access and control their accounts using custom written
+    """Allows users to access and control their accounts using custom written ddd
     software.Do not make more than 600 request per 10 minutes, or we will ban
     your IP address.To get an API key, go to "API". Set permissions and click
     "Generate key". https://www.antpool.com/userApi
