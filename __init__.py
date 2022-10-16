@@ -1,2 +1,2 @@
 __author__ = 'Jordi Pascual'
-name = "solidity-antpool"
+name = "solidity-antpoolx"
