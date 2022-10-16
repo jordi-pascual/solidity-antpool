@@ -1,2 +1,2 @@
 __author__ = 'Jordi Pascual'
-name = "solidity-antpoll"
+name = "solidity-antpollLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"
