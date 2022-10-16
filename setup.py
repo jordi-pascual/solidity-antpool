@@ -6,7 +6,9 @@ with open('README.md', 'r') as f:
 setuptools.setup(
     name='solidity-antpool',
     version='0.1.1',
-    description='ANTPOOLs application programming interface (API) allows users to access and control their accounts using custom written software.',
+    description='ANTPOOLs application programming interface (API) allows users'
+                'to access and control their accounts using custom written '
+                'software.',
     url='https://github.com/jonova-coder/antpool-solidity',
     author='Jordi Pascual Dalmau',
     author_email='pascual.dalmau@gmail.com',
